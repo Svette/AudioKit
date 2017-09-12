@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
 	s.ios.vendored_frameworks  = 'Frameworks/AudioKit-iOS/AudioKit.framework'
 	s.osx.vendored_frameworks  = 'Frameworks/AudioKit-macOS/AudioKit.framework'
-	s.tvOS.vendored_frameworks = 'Frameworks/AudioKit-tvOS/AudioKit.framework'
+	s.tvos.vendored_frameworks = 'Frameworks/AudioKit-tvOS/AudioKit.framework'
 
 	s.framework = 'AVFoundation'
 end
